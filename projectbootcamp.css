@@ -1,0 +1,123 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    height: 50vh;
+    padding:0px;
+    font:poppins;
+    background-color: rgb(184, 199, 216);
+}
+#main{
+     width:100%;
+     position:relative;
+}
+nav {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgb(81, 180, 175);
+    box-sizing: 5px 10px 30px rgb(31, 13, 13);
+}
+.logo img{
+    height:66px;
+    width:76px;
+}
+.menu{
+    list-style: none;
+    display:flex;
+
+}
+.menu li a{
+    height: 40px;
+    line-height:43px;
+    margin:3px;
+    padding :0px 22px ;
+    display:flex;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color:rgb(19, 44, 46)
+
+}
+a{
+    text-decoration:none;
+}
+.hey
+{
+    font-size: 18px;
+    font-weight: 1000;
+    color:rgb(21, 54, 59);
+    font-style:italic
+
+}
+.image{
+    width:500px;
+    height:500px;
+
+}
+.image img{
+    width:160%;
+    height:90%;
+    object-fit:contain;
+}
+.content{
+    display:flex;
+    width:90%;
+    justify-content: space-around;
+    align-items:center;
+    position:absolute;
+    left:50%;
+    right:50%;
+    transform: translate(-50%,50%);
+
+}
+.main-text
+{
+    width:500px;
+}
+.main-text h1{
+    font-size:1cm;
+    color:#1c3548;
+    margin:45px 55px 10px 5px;
+    line-height:40px;
+}
+.main-text p{
+    color:rgb(44, 114, 160);
+    font-size: 0.5cm;
+    font-weight: 400;
+    margin:20px 55px 10px 5px;
+}
+.resume-btn{
+    width:180px;
+    height:44px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #182b3d;
+    border-radius: 20px;
+    box-shadow: 5px  10px 30px rgba(24,139,119,0.2);
+}
+.resume-btn:hover{
+    background-color:#275981;
+    transition:all ease;
+}
+.menu li a:hover{
+    background-color:#182b3d;
+    color:white;
+    box-shadow:5px 10px 30px rgba(24, 54, 49, 0.2);
+    transition:all ease 0.2s;
+}
+.hey:hover{
+    background-color:#182b3d;
+    color:white;
+    border-radius: 9px;
+
+
+}
